@@ -2,9 +2,7 @@ Pod::Spec.new do |s|
   s.name                = "DXYWeChatSDK"
   s.version             = "1.4.3"
   s.summary             = "微信开放平台SDK，支持 arm64."
-  s.description         = <<-DESC
-                          微信开放平台SDK，支持 arm64.
-                          DESC
+  s.requires_arc        = true
   s.homepage            = "http://open.weixin.qq.com/"
   s.license             = { :type => 'LGPL', :text => <<-LICENSE
                                                    ® 1998 - 2014 Tencent All Rights Reserved.
