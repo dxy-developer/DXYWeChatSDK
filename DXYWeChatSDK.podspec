@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name                = "iOpenWeChat"
+  s.name                = "DXYWeChatSDK"
   s.version             = "1.4.3"
   s.summary             = "微信开放平台SDK，支持 arm64."
   s.description         = <<-DESC
