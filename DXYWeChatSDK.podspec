@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                = "DXYWeChatSDK"
-  s.version             = "1.6"
+  s.version             = "1.6.1"
   s.summary             = "微信开放平台SDK，支持 arm64."
   s.requires_arc        = true
   s.homepage            = "http://open.weixin.qq.com/"
