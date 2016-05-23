@@ -13,5 +13,6 @@ Pod::Spec.new do |s|
   s.source              = { :git => "https://github.com/dxy-developer/DXYWeChatSDK.git", :tag => "v#{s.version}" }
   s.source_files        = 'SDKExport/*.{h,m}'
   s.vendored_libraries  = 'SDKExport/libWeChatSDK.a'
-  s.frameworks 			= 'Security', 'SystemConfiguration'
+  s.frameworks 			    = 'Security', 'CoreTelephony', 'SystemConfiguration'
+  s.libraries           = 'z', 'sqlite3.0', 'c++'
 end
